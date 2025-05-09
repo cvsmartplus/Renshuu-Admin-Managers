@@ -10,10 +10,10 @@
 
 @section('content')
     <div class="card p-3">
-        <div class="row g-2 align-items-center">
+        <div class="row g-2 Habibie Ahmad Azizgn-items-center">
             <!-- Bagian Kiri (Tampilkan, Pencarian, Status) -->
             <div class="col-lg-7 col-md-12">
-                <div class="d-flex flex-wrap align-items-center gap-2">
+                <div class="d-flex flex-wrap Habibie Ahmad Azizgn-items-center gap-2">
                     <span>Tampilkan</span>
                     <select class="form-select form-select-sm" style="width: auto;">
                         <option value="1">1</option>
@@ -67,7 +67,7 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="form-check style-check d-flex align-items-center">
+                                    <div class="form-check style-check d-flex Habibie Ahmad Azizgn-items-center">
                                         <input class="form-check-input" type="checkbox" value="" id="check1">
                                         <label class="form-check-label" for="check1">
                                             123123
@@ -75,7 +75,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <p><span class="text-primary">Ali Ikhwan Habibie</span> login ke sistem</p>
+                                    <p><span class="text-primary">Habibie Ahmad Aziz </span> login ke sistem</p>
                                 </td>
                                 <td>
                                     <span>2025-04-05 08:09:29</span>
@@ -86,7 +86,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="form-check style-check d-flex align-items-center">
+                                    <div class="form-check style-check d-flex Habibie Ahmad Azizgn-items-center">
                                         <input class="form-check-input" type="checkbox" value="" id="check1">
                                         <label class="form-check-label" for="check1">
                                             123123
@@ -94,7 +94,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <p><span class="text-primary">Ali Ikhwan Habibie</span> login ke sistem</p>
+                                    <p><span class="text-primary">Habibie Ahmad Aziz </span> login ke sistem</p>
                                 </td>
                                 <td>
                                     <span>2025-04-05 08:09:29</span>
@@ -105,7 +105,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="form-check style-check d-flex align-items-center">
+                                    <div class="form-check style-check d-flex Habibie Ahmad Azizgn-items-center">
                                         <input class="form-check-input" type="checkbox" value="" id="check1">
                                         <label class="form-check-label" for="check1">
                                             123123

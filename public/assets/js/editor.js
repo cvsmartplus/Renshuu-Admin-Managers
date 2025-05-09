@@ -4,9 +4,14 @@ const quill = new Quill("#editor", {
         syntax: true,
         toolbar: "#toolbar-container",
     },
-    placeholder: "Compose an epic...",
+    placeholder: "tuliskan deskripsi artikel...",
     theme: "snow",
 });
+
+const form = document.querySelector('form');
+    form.onsubmit = function () {
+        document.getElementById('content-input').value = quill.root.innerHTML;
+};
 
 const quill1 = new Quill("#editor1", {
     modules: {

@@ -87,12 +87,30 @@
 
                                             <!-- Kiri: Filter + Status -->
                                             <div class="d-flex align-items-center gap-2">
-                                                <!-- Filter Button -->
-                                                <button
-                                                    class="btn btn-light border shadow-sm d-flex align-items-center gap-2">
-                                                    <iconify-icon icon="tabler:filter"></iconify-icon>
-                                                    Filter
-                                                </button>
+                                                <!-- Dropdown Urut Nama -->
+                                                <div class="dropdown">
+                                                    <button
+                                                        class="btn btn-light border shadow-sm dropdown-toggle d-flex align-items-center gap-2"
+                                                        type="button" data-bs-toggle="dropdown">
+                                                        <iconify-icon icon="tabler:sort-ascending"></iconify-icon>
+                                                        Urut Nama
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('pendaftar.index', ['sort' => 'asc']) }}">
+                                                                A - Z
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('pendaftar.index', ['sort' => 'desc']) }}">
+                                                                Z - A
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
 
                                                 <!-- Dropdown Status -->
                                                 <div class="dropdown">
@@ -104,7 +122,7 @@
                                                         Semua Status
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="#">Aktif</a></li>
+                                                        <li><a class="dropdown-item" href="">Aktif</a></li>
                                                         <li><a class="dropdown-item" href="#">Tidak Aktif</a></li>
                                                     </ul>
                                                 </div>
@@ -314,21 +332,23 @@
                                     <!-- Isi Halaman Kontak -->
                                     <div class="">
                                         <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
-            
+
                                             <!-- Kiri: Filter + Status -->
                                             <div class="d-flex align-items-center gap-2">
                                                 <!-- Filter Button -->
-                                                <button class="btn btn-light border shadow-sm d-flex align-items-center gap-2">
+                                                <button
+                                                    class="btn btn-light border shadow-sm d-flex align-items-center gap-2">
                                                     <iconify-icon icon="tabler:filter"></iconify-icon>
                                                     Filter
                                                 </button>
-            
+
                                                 <!-- Dropdown Status -->
                                                 <div class="dropdown">
                                                     <button
                                                         class="btn btn-light border shadow-sm dropdown-toggle d-flex align-items-center gap-2"
                                                         type="button" data-bs-toggle="dropdown">
-                                                        <iconify-icon icon="solar:refresh-circle-line-duotone"></iconify-icon>
+                                                        <iconify-icon
+                                                            icon="solar:refresh-circle-line-duotone"></iconify-icon>
                                                         Semua Status
                                                     </button>
                                                     <ul class="dropdown-menu">
@@ -338,215 +358,243 @@
                                                     </ul>
                                                 </div>
                                             </div>
-            
+
                                             <!-- Kanan: Search Box -->
                                             <div class="input-group shadow-sm" style="max-width: 250px;">
                                                 <span class="input-group-text bg-white border-end-0">
                                                     <iconify-icon icon="tabler:search"></iconify-icon>
                                                 </span>
-                                                <input type="text" class="form-control border-start-0" placeholder="Pencarian">
+                                                <input type="text" class="form-control border-start-0"
+                                                    placeholder="Pencarian">
                                             </div>
                                         </div>
                                         <div class="d-flex gap-3 flex-wrap">
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card shadow-5 rounded-4" style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
+                                            <div class="card shadow-5 rounded-4"
+                                                style="width: 320px; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);">
                                                 <div class="card-body">
-                                                <div class="d-flex align-items-center mb-3">
-                                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Avatar">
-                                                    <hr class="">
-                                                    <div>
-                                                    <h6 class="mb-0">Reyhan Afgan</h6>
-                                                    <small class="text-muted">Jan 6, 2002</small>
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                            class="rounded-circle me-3" width="50" height="50"
+                                                            alt="Avatar">
+                                                        <hr class="">
+                                                        <div>
+                                                            <h6 class="mb-0">Reyhan Afgan</h6>
+                                                            <small class="text-muted">Jan 6, 2002</small>
+                                                        </div>
+                                                        <i class="bi bi-three-dots ms-auto"></i>
                                                     </div>
-                                                    <i class="bi bi-three-dots ms-auto"></i>
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-mail-line me-4"></i>arabagan@gmail.com
-                                                </div>
-                                                <div class="mb-2">
-                                                    <i class="ri-phone-line me-4"></i>0838-2384-2323
-                                                </div>
-                                                <div>
-                                                    <i class="ri-cake-2-line me-4"></i>23 Tahun
-                                                </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-mail-line me-4"></i>arabagan@gmail.com
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <i class="ri-phone-line me-4"></i>0838-2384-2323
+                                                    </div>
+                                                    <div>
+                                                        <i class="ri-cake-2-line me-4"></i>23 Tahun
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -126,4 +126,14 @@ class Admin_ManagerController extends Controller
     {
         return view('AdminManager/BelumDicek');
     }
+    
+    public function rolekursus()
+    {
+        return view('AdminManager/rolekursus');
+    }
+    
+    public function roleperusahaan()
+    {
+        return view('AdminManager/roleperusahaan');
+    }
 }

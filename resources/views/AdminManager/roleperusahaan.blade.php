@@ -5,8 +5,7 @@
     $script = '<script src="' . asset('assets/js/homeOneChart.js') . '"></script>
     <script src="' . asset('assets/js/lineChartPageChart.js') . '"></script>
     <script src="' . asset('assets/js/columnChartPageChart.js') . '"></script>
-    <script src="' . asset('assets/js/role.js') . '"></script>
-    <script src="' . asset('assets/js/status.js') . '"></script>';
+    <script src="' . asset('assets/js/role.js') . '"></script>';
 @endphp
 
 @section('content')
@@ -137,7 +136,7 @@
                                     Helmi123@gmail.com
                                 </td>
                                 <td>
-                                    Admin Kursus
+                                    Admin Perusahaan
                                 </td>
                                 <td>
                                     <div class="status-badge">

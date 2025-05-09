@@ -30,6 +30,7 @@ use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Auth\EmailVerificationPromptController;
 use App\Http\Controllers\Auth\EmailVerificationNotificationController;
 use App\Http\Controllers\single_kursusController;
+use App\Http\Controllers\PendaftarController;
 
 Route::middleware('guest')->group(function () {
     Route::get('register', [RegisteredUserController::class, 'create'])
@@ -121,7 +122,7 @@ Route::prefix('AdminManager')->group(function () {
         Route::get('/RiwayatLog','RiwayatLog')->name('RiwayatLog');
         Route::get('/tambahkursus','tambahkursus')->name('tambahkursus');
         Route::get('/tambahloker','tambahloker')->name('tambahloker');
-        Route::get('/single','singleartikel')->name('singleartikel');
+        Route::get('/singleartikel','singleartikel')->name('singleartikel');
         Route::get('/singlekursus','singlekursus')->name('singlekursus');
         Route::get('/singleloker','singleloker')->name('singleloker');
         Route::get('/singlekelolapelamar','singlekelolapelamar')->name('singlekelolapelamar');
@@ -136,10 +137,16 @@ Route::prefix('AdminManager')->group(function () {
         Route::get('/pemateri','pemateri')->name('pemateri');
         Route::get('/sudahdicek','sudahdicek')->name('sudahdicek');
         Route::get('/belumdicek','belumdicek')->name('belumdicek');
+        Route::get('/rolekursus','rolekursus')->name('rolekursus');
+        Route::get('/roleperusahaan','roleperusahaan')->name('roleperusahaan');
+
         
 
     });
 });
+// Route Pendaftar
+Route::get('/pendaftar', [PendaftarController::class, 'index'])->name('pendaftar.index');
+
 
 //single kursus
     // route::controller(single_kursusController::class)->group(function(){

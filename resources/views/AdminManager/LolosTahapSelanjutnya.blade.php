@@ -6,7 +6,8 @@
     $script= '<script src="' . asset('assets/js/homeOneChart.js') . '"></script>
     <script src="' . asset('assets/js/lineChartPageChart.js') . '"></script>
     <script src="' . asset('assets/js/columnChartPageChart.js') . '"></script>
-    <script src="' . asset('assets/js/handleredirect.js') . '"></script>';
+    <script src="' . asset('assets/js/handleredirect.js') . '"></script>
+    <script src="' . asset('assets/js/changestatus.js') . '"></script>';
 @endphp
 
 @section('content')

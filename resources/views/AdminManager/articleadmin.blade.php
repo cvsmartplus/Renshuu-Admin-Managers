@@ -21,29 +21,29 @@
                 Artikel</a>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header d-flex flex-wrap align-items-center justify-content-end gap-3">
-            <div class="d-flex flex-wrap align-items-center gap-3">
-                <div class="d-flex justify-content-end align-items-center gap-3">
-                    <!-- Pencarian -->
-                    <div class="d-flex align-items-center text-secondary cursor-pointer">
-                        <i class="ri-search-line"></i>
-                        <span class="ms-2">Pencarian</span>
-                    </div>
-                    <!-- Filter -->
-                    <div class="d-flex align-items-center text-secondary cursor-pointer">
-                        <i class="ri-filter-fill"></i>
-                        <span class="ms-2">Filter</span>
-                    </div>
-                    <!-- Pilih -->
-                    <div class="d-flex align-items-center text-secondary cursor-pointer">
-                        <i class="ri-grid-line"></i>
-                        <span class="ms-2">Pilih</span>
-                    </div>
-                </div>
-            </div>
+
+    <div class="d-flex justify-content-between align-items-center flex-wrap my-3">
+
+        <!-- Kiri: Filter + Status -->
+        <div class="d-flex align-items-center gap-2">
+            <!-- Filter Button -->
+            <button
+                class="btn btn-light border shadow-sm d-flex align-items-center gap-2">
+                <iconify-icon icon="tabler:filter"></iconify-icon>
+                Filter
+            </button>
+        </div>
+
+        <!-- Kanan: Search Box -->
+        <div class="input-group shadow-sm" style="max-width: 250px;">
+            <span class="input-group-text bg-white border-end-0">
+                <iconify-icon icon="tabler:search"></iconify-icon>
+            </span>
+            <input type="text" class="form-control border-start-0"
+                placeholder="Pencarian">
         </div>
     </div>
+    
     <div class="row gy-4 mt-4">
         <div class="col-xxl-3 col-lg-4 col-sm-6">
             <div class="card h-100 p-0 radius-12 overflow-hidden">
@@ -53,7 +53,7 @@
                     </a>
                     <div class="mt-20">
                         <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                            <a href="blog-details"
+                            <a href="#"
                                 class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
                             <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
                                 <i class="ri-calendar-2-line"></i>

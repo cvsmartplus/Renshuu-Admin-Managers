@@ -28,13 +28,15 @@
 
         <div class="m-3 m-md-5">
             <h4 class="text-neutral-900 mb-3 mb-md-36">Smart Factory.</h4>
-          
+
             <!-- Tombol -->
             <div class="btn-group radius-8 mb-20">
-              <button type="button" class="btn btn-light px-20 py-11 radius-8 active-tab" onclick="showTab('deskripsi', this)">Deskripsi</button>
-              <button type="button" class="btn btn-light px-20 py-11" onclick="showTab('pemateri', this)">Pemateri</button>
+                <button type="button" class="btn btn-light px-20 py-11 radius-8 active-tab"
+                    onclick="showTab('deskripsi', this)">Deskripsi</button>
+                <button type="button" class="btn btn-light px-20 py-11"
+                    onclick="showTab('pemateri', this)">Pemateri</button>
             </div>
-          
+
             <!-- Konten Deskripsi -->
             <div id="konten-deskripsi" class="tab-content fade-in">
                 <div class="px-4 py-4">
@@ -43,19 +45,25 @@
                         <div class="col-12 col-lg-8 order-2 order-lg-1 mb-4 mt-3">
                             <h5 class="fw-bold">Transformasi Digital di Pabrik</h5>
                             <p style="text-align: justify;">
-                                “Kursus ini mengajarkan cara menerapkan teknologi canggih seperti otomasi industri, Internet of
+                                “Kursus ini mengajarkan cara menerapkan teknologi canggih seperti otomasi industri, Internet
+                                of
                                 Things (IoT),
-                                dan analisis data di pabrik. Peserta akan mempelajari bagaimana mengoptimalkan proses produksi,
+                                dan analisis data di pabrik. Peserta akan mempelajari bagaimana mengoptimalkan proses
+                                produksi,
                                 meningkatkan
-                                keamanan kerja, serta menggunakan analitik prediktif untuk pemeliharaan preventif. Kursus ini juga
+                                keamanan kerja, serta menggunakan analitik prediktif untuk pemeliharaan preventif. Kursus
+                                ini juga
                                 mencakup
                                 studi kasus dari perusahaan terkemuka dan proyek-proyek simulasi untuk keterampilan praktis.
                             </p>
                             <p style="text-align: justify;">
-                                Selain itu, peserta akan mengeksplorasi tantangan dan peluang dalam transformasi digital di industri
-                                manufaktur, termasuk aspek keamanan siber dan manajemen perubahan. Setelah menyelesaikan kursus,
+                                Selain itu, peserta akan mengeksplorasi tantangan dan peluang dalam transformasi digital di
+                                industri
+                                manufaktur, termasuk aspek keamanan siber dan manajemen perubahan. Setelah menyelesaikan
+                                kursus,
                                 peserta akan
-                                siap memimpin perubahan di lingkungan pabrik, mampu menghadapi tantangan teknologi masa depan, dan
+                                siap memimpin perubahan di lingkungan pabrik, mampu menghadapi tantangan teknologi masa
+                                depan, dan
                                 mengidentifikasi peluang baru untuk inovasi dan peningkatan efisiensi.”
                             </p>
                             <div class="mb-36">
@@ -70,7 +78,8 @@
                             <h6>Yang Akan Kamu Pelajari</h6>
                             <div class="me-3">
                                 <p class="d-flex text-wrap" style="text-align: justify;">
-                                    Melalui kursus ini, Anda akan mendapatkan keterampilan praktis dan pengetahuan teoritis yang
+                                    Melalui kursus ini, Anda akan mendapatkan keterampilan praktis dan pengetahuan teoritis
+                                    yang
                                     dibutuhkan untuk memimpin transformasi digital di industri manufaktur.
                                     Dapatkan wawasan dari studi kasus nyata dan proyek-proyek simulasi yang dirancang untuk
                                     memberikan
@@ -78,7 +87,7 @@
                                 </p>
                             </div>
                         </div>
-        
+
                         <!-- Kolom Card -->
                         <div class="col-12 col-lg-4 order-1 order-lg-2">
                             <div class="card shadow-sm border-0">
@@ -92,50 +101,61 @@
                                     <div class="mt-3">
                                         <p><i class="ri-bar-chart-2-fill"></i> <strong>Level</strong> <span
                                                 class="float-end">Mahir</span></p>
-                                        <p><i class="ri-user-fill"></i> <strong>Siswa</strong> <span class="float-end">404</span>
+                                        <p><i class="ri-user-fill"></i> <strong>Siswa</strong> <span
+                                                class="float-end">404</span>
                                         </p>
-                                        <p><i class="ri-calendar-fill"></i> <strong>Jadwal</strong> <span class="float-end">28
+                                        <p><i class="ri-calendar-fill"></i> <strong>Jadwal</strong> <span
+                                                class="float-end">28
                                                 Januari 2008</span></p>
-                                        <p><i class="ri-time-fill"></i> <strong>Durasi</strong> <span class="float-end">2 jam 90
+                                        <p><i class="ri-time-fill"></i> <strong>Durasi</strong> <span class="float-end">2
+                                                jam 90
                                                 menit</span></p>
                                     </div>
-                                    <a href="#" class="btn btn-primary w-100" style="background-color: #002F87;">Daftar
+                                    <a href="#" class="btn btn-primary w-100"
+                                        style="background-color: #002F87;">Daftar
                                         Sekarang</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-        
+
                 </div>
-        
+
                 <h6 class="mt-5">Kelola Anggota Kursus</h6>
-                <p class="text-secondary">
-                    Klik tombol <span class="fw-semibold">Centang</span>(Hijau) jika sudah mengikuti semua materi kursus,
-                    dan sesuai
-                </p>
-        
-                <div class="card mb-20 mx-3 p-3">
-                    <div class="row">
-                        <div class="col">
-                            <div class="d-flex align-items-center gap-2 ms-5">
-                                <select class="form-select form-select-sm" style="width: auto;">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                                <div class="input-group" style="width: 200px;">
-                                    <span class="input-group-text">
-                                        🔍
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Cari">
-                                </div>
-                                <select class="form-select form-select-sm" style="width: 100px;">
-                                    <option value="Status">Status</option>
-                                    <option value="Tidak Lolos">Tidak Lolos</option>
-                                    <option value="Lolos tahap selanjutnya">Lolos tahap selanjutnya</option>
-                                </select>
-                            </div>
+                <p class="text-capitalize mb-5">Setelah peserta mengikuti kursus, admin perlu menghubungi pelatih untuk mendapatkan informasi kelulusan setiap peserta.Gunakan tombol WhatsApp yang tersedia untuk mengirim pesan langsung ke pelatih dan meminta konfirmasi hasil kursus.Berdasarkan informasi dari pelatih, admin dapat menentukan apakah peserta dinyatakan lolos atau tidak lolos.Pastikan informasi yang diterima sudah valid sebelum melakukan verifikasi.Klik ikon centang hijau untuk peserta yang dinyatakan lolos, atau ikon silang merah untuk peserta yang tidak lolos.Data hasil verifikasi ini akan digunakan sebagai acuan untuk proses selanjutnya, seperti penerbitan sertifikat atau penyampaian hasil akhir.</p>
+
+                <div class="d-flex justify-content-between align-items-center flex-wrap my-3">
+
+                    <!-- Kiri: Filter + Status -->
+                    <div class="d-flex align-items-center gap-2">
+                        <!-- Filter Button -->
+                        <button class="btn btn-light border shadow-sm d-flex align-items-center gap-2">
+                            <iconify-icon icon="tabler:filter"></iconify-icon>
+                            Filter
+                        </button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-outline-secondary d-flex align-items-center dropdown-toggle shadow-sm"
+                                type="button" id="statusDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="spinner-border spinner-border-sm text-secondary me-2" role="status"
+                                    aria-hidden="true"></span>
+                                Menunggu
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="statusDropdown">
+                                <li><a class="dropdown-item" href="#">Disetujui</a></li>
+                                <li><a class="dropdown-item" href="#">Ditolak</a></li>
+                                <li><a class="dropdown-item" href="#">Menunggu</a></li>
+                            </ul>
                         </div>
+
+                    </div>
+
+                    <!-- Kanan: Search Box -->
+                    <div class="input-group shadow-sm" style="max-width: 250px;">
+                        <span class="input-group-text bg-white border-end-0">
+                            <iconify-icon icon="tabler:search"></iconify-icon>
+                        </span>
+                        <input type="text" class="form-control border-start-0" placeholder="Pencarian">
                     </div>
                 </div>
                 <div class="card-body">
@@ -145,26 +165,24 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="checkAll">
-                                                <label class="form-check-label" for="checkAll">
-                                                    S.L
+                                            <div class="d-flex align-items-center text-center">
+                                                <label class="-label" for="checkAll">
+                                                    No
                                                 </label>
                                             </div>
                                         </th>
                                         <th scope="col-1">Nama Anggota</th>
-                                        <th scope="col-2">Tanggal Pembuatan</th>
-                                        <th scope="col-5">Deskripsi</th>
+                                        <th scope="col-2">Tanggal Daftar</th>
+                                        <th scope="col-5">Nomor Whatsapp</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col">Verifikasi</th>
+                                        <th scope="col">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check1">
-                                                <label class="form-check-label" for="check1">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check1">
                                                     01
                                                 </label>
                                             </div>
@@ -173,25 +191,28 @@
                                         <td>
                                             23 Jan 2025
                                         </td>
-                                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                        <td>08976535</td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
-            
                                         <td>
-                                            <div class="form-check">
-                                              <input class="form-check-input verif-check" type="checkbox" id="verif1">
-                                            </div>
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check2">
-                                                <label class="form-check-label" for="check2">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check2">
                                                     02
                                                 </label>
                                             </div>
@@ -201,23 +222,29 @@
                                             23 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            08977533
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check3">
-                                                <label class="form-check-label" for="check3">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check3">
                                                     03
                                                 </label>
                                             </div>
@@ -227,23 +254,29 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check4">
-                                                <label class="form-check-label" for="check4">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check4">
                                                     04
                                                 </label>
                                             </div>
@@ -253,23 +286,29 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check5">
-                                                <label class="form-check-label" for="check5">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check5">
                                                     05
                                                 </label>
                                             </div>
@@ -279,23 +318,29 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            089775543
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check6">
-                                                <label class="form-check-label" for="check6">
+                                            <div class="  d-flex align-items-center">
+                                                <label class="-label" for="check6">
                                                     06
                                                 </label>
                                             </div>
@@ -305,23 +350,31 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check7">
-                                                <label class="form-check-label" for="check7">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check7">
+                                                <label class="-label" for="check7">
                                                     07
                                                 </label>
                                             </div>
@@ -331,23 +384,31 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check8">
-                                                <label class="form-check-label" for="check8">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check8">
+                                                <label class="-label" for="check8">
                                                     08
                                                 </label>
                                             </div>
@@ -357,23 +418,31 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            08977533
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check9">
-                                                <label class="form-check-label" for="check9">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check9">
+                                                <label class="-label" for="check9">
                                                     09
                                                 </label>
                                             </div>
@@ -383,23 +452,31 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            08776424
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check110">
-                                                <label class="form-check-label" for="check110">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check110">
+                                                <label class="-label" for="check110">
                                                     10
                                                 </label>
                                             </div>
@@ -409,16 +486,23 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+                                            <button class="btn btn-success rounded-3 p-2 me-2" style="background-color: #027400;">
+                                                <i class="ri-check-line text-white" ></i>
+                                              </button>
+                                              
+                                              <!-- Tombol Merah -->
+                                              <button class="btn btn-danger rounded-3 p-2" style="background-color: red">
+                                                <i class="ri-close-line text-white"></i>
+                                              </button>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -456,7 +540,7 @@
                     </div>
                 </div>
             </div>
-          
+
             <!-- Konten Pemateri -->
             <div id="konten-pemateri" class="tab-content fade-in" style="display: none;">
                 <div class="px-4 py-4">
@@ -465,19 +549,25 @@
                         <div class="col-12 col-lg-8 order-2 order-lg-1 mb-4 mt-3">
                             <h5 class="fw-bold">Transformasi Digital di Pabrik</h5>
                             <p style="text-align: justify;">
-                                “Kursus ini mengajarkan cara menerapkan teknologi canggih seperti otomasi industri, Internet of
+                                “Kursus ini mengajarkan cara menerapkan teknologi canggih seperti otomasi industri, Internet
+                                of
                                 Things (IoT),
-                                dan analisis data di pabrik. Peserta akan mempelajari bagaimana mengoptimalkan proses produksi,
+                                dan analisis data di pabrik. Peserta akan mempelajari bagaimana mengoptimalkan proses
+                                produksi,
                                 meningkatkan
-                                keamanan kerja, serta menggunakan analitik prediktif untuk pemeliharaan preventif. Kursus ini juga
+                                keamanan kerja, serta menggunakan analitik prediktif untuk pemeliharaan preventif. Kursus
+                                ini juga
                                 mencakup
                                 studi kasus dari perusahaan terkemuka dan proyek-proyek simulasi untuk keterampilan praktis.
                             </p>
                             <p style="text-align: justify;">
-                                Selain itu, peserta akan mengeksplorasi tantangan dan peluang dalam transformasi digital di industri
-                                manufaktur, termasuk aspek keamanan siber dan manajemen perubahan. Setelah menyelesaikan kursus,
+                                Selain itu, peserta akan mengeksplorasi tantangan dan peluang dalam transformasi digital di
+                                industri
+                                manufaktur, termasuk aspek keamanan siber dan manajemen perubahan. Setelah menyelesaikan
+                                kursus,
                                 peserta akan
-                                siap memimpin perubahan di lingkungan pabrik, mampu menghadapi tantangan teknologi masa depan, dan
+                                siap memimpin perubahan di lingkungan pabrik, mampu menghadapi tantangan teknologi masa
+                                depan, dan
                                 mengidentifikasi peluang baru untuk inovasi dan peningkatan efisiensi.”
                             </p>
                             <div class="mb-36">
@@ -492,7 +582,8 @@
                             <h6>Yang Akan Kamu Pelajari</h6>
                             <div class="me-3">
                                 <p class="d-flex text-wrap" style="text-align: justify;">
-                                    Melalui kursus ini, Anda akan mendapatkan keterampilan praktis dan pengetahuan teoritis yang
+                                    Melalui kursus ini, Anda akan mendapatkan keterampilan praktis dan pengetahuan teoritis
+                                    yang
                                     dibutuhkan untuk memimpin transformasi digital di industri manufaktur.
                                     Dapatkan wawasan dari studi kasus nyata dan proyek-proyek simulasi yang dirancang untuk
                                     memberikan
@@ -500,7 +591,7 @@
                                 </p>
                             </div>
                         </div>
-        
+
                         <!-- Kolom Card -->
                         <div class="col-12 col-lg-4 order-1 order-lg-2">
                             <div class="card shadow-sm border-0">
@@ -514,28 +605,32 @@
                                     <div class="mt-3">
                                         <p><i class="ri-bar-chart-2-fill"></i> <strong>Level</strong> <span
                                                 class="float-end">Mahir</span></p>
-                                        <p><i class="ri-user-fill"></i> <strong>Siswa</strong> <span class="float-end">404</span>
+                                        <p><i class="ri-user-fill"></i> <strong>Siswa</strong> <span
+                                                class="float-end">404</span>
                                         </p>
-                                        <p><i class="ri-calendar-fill"></i> <strong>Jadwal</strong> <span class="float-end">28
+                                        <p><i class="ri-calendar-fill"></i> <strong>Jadwal</strong> <span
+                                                class="float-end">28
                                                 Januari 2008</span></p>
-                                        <p><i class="ri-time-fill"></i> <strong>Durasi</strong> <span class="float-end">2 jam 90
+                                        <p><i class="ri-time-fill"></i> <strong>Durasi</strong> <span class="float-end">2
+                                                jam 90
                                                 menit</span></p>
                                     </div>
-                                    <a href="#" class="btn btn-primary w-100" style="background-color: #002F87;">Daftar
+                                    <a href="#" class="btn btn-primary w-100"
+                                        style="background-color: #002F87;">Daftar
                                         Sekarang</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-        
+
                 </div>
-        
+
                 <h6 class="mt-5">Kelola Anggota Kursus</h6>
                 <p class="text-secondary">
                     Klik tombol <span class="fw-semibold">Centang</span>(Hijau) jika sudah mengikuti semua materi kursus,
                     dan sesuai
                 </p>
-        
+
                 <div class="card mb-20 mx-3 p-3">
                     <div class="row">
                         <div class="col">
@@ -567,9 +662,10 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="checkAll">
-                                                <label class="form-check-label" for="checkAll">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="checkAll">
+                                                <label class="-label" for="checkAll">
                                                     S.L
                                                 </label>
                                             </div>
@@ -584,9 +680,10 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check1">
-                                                <label class="form-check-label" for="check1">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check1">
+                                                <label class="-label" for="check1">
                                                     01
                                                 </label>
                                             </div>
@@ -595,25 +692,27 @@
                                         <td>
                                             23 Jan 2025
                                         </td>
-                                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                        <td>08976535</td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
-            
+
                                         <td>
-                                            <div class="form-check">
-                                              <input class="form-check-input verif-check" type="checkbox" id="verif1">
+                                            <div class="">
+                                                <input class="-input verif-check" type="checkbox"
+                                                    id="verif1">
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check2">
-                                                <label class="form-check-label" for="check2">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check2">
+                                                <label class="-label" for="check2">
                                                     02
                                                 </label>
                                             </div>
@@ -623,23 +722,24 @@
                                             23 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            08977533
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check3">
-                                                <label class="form-check-label" for="check3">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check3">
+                                                <label class="-label" for="check3">
                                                     03
                                                 </label>
                                             </div>
@@ -649,23 +749,24 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check4">
-                                                <label class="form-check-label" for="check4">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check4">
+                                                <label class="-label" for="check4">
                                                     04
                                                 </label>
                                             </div>
@@ -675,23 +776,24 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check5">
-                                                <label class="form-check-label" for="check5">
+                                            <div class="  d-flex align-items-center">
+                                                <input class="-input" type="checkbox" value=""
+                                                    id="check5">
+                                                <label class="-label" for="check5">
                                                     05
                                                 </label>
                                             </div>
@@ -701,23 +803,22 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            089775543
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check6">
-                                                <label class="form-check-label" for="check6">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check6">
                                                     06
                                                 </label>
                                             </div>
@@ -727,23 +828,22 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check7">
-                                                <label class="form-check-label" for="check7">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check7">
                                                     07
                                                 </label>
                                             </div>
@@ -753,23 +853,22 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check8">
-                                                <label class="form-check-label" for="check8">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check8">
                                                     08
                                                 </label>
                                             </div>
@@ -779,23 +878,22 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            08977533
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check9">
-                                                <label class="form-check-label" for="check9">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check9">
                                                     09
                                                 </label>
                                             </div>
@@ -809,19 +907,18 @@
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-check style-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="" id="check110">
-                                                <label class="form-check-label" for="check110">
+                                            <div class="d-flex align-items-center">
+                                                <label class="-label" for="check110">
                                                     10
                                                 </label>
                                             </div>
@@ -831,16 +928,16 @@
                                             25 Jan 2025
                                         </td>
                                         <td>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            08976535
                                         </td>
                                         <td>
                                             <button class="btn btn-secondary"
-                                                style="background-color: #808080; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
-                                                Sedang Dikerjakan
+                                                style="background-color: #f39c2b; color: white; border-radius: 10px; padding: 6px 12px; font-size: 14px;">
+                                                Menunggu
                                             </button>
                                         </td>
                                         <td>
-            
+
                                         </td>
                                     </tr>
                                 </tbody>
@@ -879,7 +976,4 @@
                 </div>
             </div>
         </div>
-          
-
-        
-@endsection
+    @endsection

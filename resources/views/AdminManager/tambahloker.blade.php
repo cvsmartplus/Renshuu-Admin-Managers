@@ -256,49 +256,7 @@
                                     </div>
                                 </fieldset>
 
-                                <fieldset class="wizard-fieldset">
-                                    {{-- Kartu Pilihan Paket --}}
-                                    <div class="bg-blue-50 p-6 rounded-xl max-w-md mx-auto shadow">
-                                        <p class="text-center mb-4 font-semibold text-gray-600">
-                                            <span class="text-blue-600 font-bold">Iklan Unggulan</span><br>
-                                            Pasang lowongan Anda pada posisi teratas agar mudah ditemukan pencari kerja
-                                        </p>
-
-                                        <div class="space-y-4">
-                                            <button class="w-full border px-4 py-3 rounded-lg hover:bg-blue-100">
-                                                Rp 49.000,00 <span class="block text-sm text-gray-500">3 Hari masa
-                                                    tayang</span>
-                                            </button>
-                                            <button class="w-full border px-4 py-3 rounded-lg hover:bg-blue-100">
-                                                Rp 79.000,00 <span class="block text-sm text-gray-500">7 Hari masa
-                                                    tayang</span>
-                                            </button>
-                                            <button class="w-full border px-4 py-3 rounded-lg hover:bg-blue-100 relative">
-                                                <span
-                                                    class="absolute top-0 right-0 bg-yellow-400 text-xs font-bold px-2 py-1 rounded-bl-lg">Best
-                                                    Seller</span>
-                                                Rp 99.000,00 <span class="block text-sm text-gray-500">30 Hari masa
-                                                    tayang</span>
-                                            </button>
-                                            <button class="w-full border px-4 py-3 rounded-lg hover:bg-gray-100">
-                                                Tidak Sekarang <span class="block text-sm text-gray-500">Lewati iklan
-                                                    unggulan</span>
-                                            </button>
-                                        </div>
-
-                                        <div class="mt-6 text-right">
-                                            <button
-                                                class="bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800">Lanjutkan
-                                                →</button>
-                                        </div>
-                                    </div>
-                                    <div class="form-group d-flex align-items-center justify-content-end gap-8">
-                                        <button type="button"
-                                            class="form-wizard-previous-btn btn btn-neutral-500 border-neutral-100 px-32">Back</button>
-                                        <button type="button"
-                                            class="form-wizard-next-btn btn btn-primary-600 px-32">Next</button>
-                                    </div>
-                                </fieldset>
+                                
 
                                 <fieldset class="wizard-fieldset">
                                     <h6 class="text-neutral-900 text-lg">Menulis Iklan Lowongan Anda</h6>

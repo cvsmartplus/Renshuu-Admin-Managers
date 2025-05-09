@@ -2,8 +2,9 @@
     <div class="row align-items-center justify-content-between">
         <div class="col-auto">
             <div class="d-flex flex-wrap align-items-center gap-4">
-                <img src="{{ asset('images/renshuu-logo.png') }}" alt="profile" class="img-fluid mx-5"
-                    style="width: 190px; height: 50px;">
+                <img src="{{ asset('images/renshuu-logo.png') }}" alt="Renshuu Logo" style="height: 50px; width: auto;"
+                    class="img-fluid me-3">
+
                 <form class="navbar-search">
                     <input type="text" name="search" placeholder="Search">
                     <iconify-icon icon="ion:search-outline" class="icon"></iconify-icon>

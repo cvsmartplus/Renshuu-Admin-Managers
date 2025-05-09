@@ -11866,6 +11866,44 @@ h6, .h6 {
   font-weight: bold;
 }
 
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #EAECF0;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-family: sans-serif;
+}
+
+.status-icon-container {
+  background-color: #D1FADF;
+  border-radius: 8px;
+  padding: 2px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+}
+
+.status-icon {
+  background-color: #12B76A;
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.status-text {
+  color: #12B76A;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .border-primary-table {
   border-spacing: 0;
   border-collapse: separate;

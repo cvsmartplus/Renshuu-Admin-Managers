@@ -76,7 +76,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <p><span class="text-primary">Ali Ikhwan Habibie</span> login ke sistem</p>
+                                    <p><span class="text-primary">Habibie ahmad aziz</span> login ke sistem</p>
                                 </td>
                                 <td>
                                     <span>2025-04-05 08:09:29</span>
@@ -95,7 +95,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <p><span class="text-primary">Ali Ikhwan Habibie</span> login ke sistem</p>
+                                    <p><span class="text-primary">Habibie ahmad aziz</span> login ke sistem</p>
                                 </td>
                                 <td>
                                     <span>2025-04-05 08:09:29</span>

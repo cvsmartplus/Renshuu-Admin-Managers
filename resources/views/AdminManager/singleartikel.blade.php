@@ -3,6 +3,11 @@
 @section('content')
     <div class="card p-0 radius-12 overflow-hidden m-5">
         <div class="card-body p-0">
+            <a href="{{ route('articleadmin') }}" class="btn btn-outline-primary position-absolute top-0 end-0 m-3 d-flex align-items-center gap-1">
+                <iconify-icon icon="material-symbols:arrow-back" class="text-lg"></iconify-icon>
+                <span>Kembali</span>
+            </a>
+            
             <img src="{{ asset('images/managers/Radio.png') }}" alt="" class="w-100 h-100 object-fit-cover">
             <div class="p-32">
                 <h4 class="mb-36 mt-20"> Masa Depan Pendidikan: Pembelajaran Online dan Tatap Muka</h4>
@@ -21,7 +26,7 @@
 
                 <div class="row d-flex flex-column-reverse flex-md-row align-items-center align-items-md-start">
                     <!-- TEKS -->
-                    <div class="col-md-9 text-md-start">
+                    <div class="col">
                         <p class="text-neutral-500 px-2">
                             Di era digital, pendidikan telah mengalami transformasi yang signifikan dengan menggabungkan
                             pembelajaran online dan tatap muka. Model pembelajaran hibrida ini menawarkan fleksibilitas dan
@@ -37,219 +42,213 @@
                             materi pelajaran.
                         </p>
                     </div>
-                
-                    <!-- GAMBAR -->
-                    <div class="col-md-3 mb-3 mb-md-0 text-center">
-                        <img src="{{ asset('images/managers/Radio2.png') }}"
-                            class="img-fluid rounded shadow-sm"
-                            style="max-width: 100%; height: auto; max-height: 250px;" alt="Gambar Artikel">
-                    </div>
                 </div>
                 
-
-                <h4 class="mb-20">Artikel Lainnya</h4>
-                <div class="row">
-                    <div class="col-xxl-3 col-lg-4 col-sm-6">
-                        <div class="card h-100 p-0 radius-12 overflow-hidden">
-                            <div class="card-body p-24">
-                                <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                    <img src="{{ asset('images/managers/Gedung.png') }}" alt=""
-                                        class="w-100 h-100 object-fit-cover">
-                                </a>
-                                <div class="mt-20">
-                                    <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                                        <a href="blog-details"
-                                            class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
-                                        <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
-                                            <i class="ri-calendar-2-line"></i>
-                                            20 Apr 2023
-                                        </div>
-                                    </div>
-                                    <h6 class="mb-16">
-                                        <a href="{{ route('singleartikel') }}"
-                                            class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
-                                            Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
-                                    </h6>
-                                    <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
-                                        Kebutuhan Pendidikan Modern</p>
-                                    <a href="{{ route('singleartikel') }}"
-                                        class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
-                                        Selengkapnya
-                                        <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                <div class="div mt-5">
+                    <h4 class="mb-20">Artikel Lainnya</h4>
+                    <div class="row">
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card h-100 p-0 radius-12 overflow-hidden">
+                                <div class="card-body p-24">
+                                    <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
+                                        <img src="{{ asset('images/managers/Gedung.png') }}" alt=""
+                                            class="w-100 h-100 object-fit-cover">
                                     </a>
+                                    <div class="mt-20">
+                                        <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
+                                            <a href="#"
+                                                class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
+                                            <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
+                                                <i class="ri-calendar-2-line"></i>
+                                                20 Apr 2023
+                                            </div>
+                                        </div>
+                                        <h6 class="mb-16">
+                                            <a href="{{ route('singleartikel') }}"
+                                                class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
+                                                Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
+                                        </h6>
+                                        <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
+                                            Kebutuhan Pendidikan Modern</p>
+                                        <a href="{{ route('singleartikel') }}"
+                                            class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
+                                            Selengkapnya
+                                            <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-3 col-lg-4 col-sm-6">
-                        <div class="card h-100 p-0 radius-12 overflow-hidden">
-                            <div class="card-body p-24">
-                                <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                    <img src="{{ asset('images/managers/Gedung.png') }}" alt=""
-                                        class="w-100 h-100 object-fit-cover">
-                                </a>
-                                <div class="mt-20">
-                                    <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                                        <a href="blog-details"
-                                            class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
-                                        <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
-                                            <i class="ri-calendar-2-line"></i>
-                                            20 Apr 2023
-                                        </div>
-                                    </div>
-                                    <h6 class="mb-16">
-                                        <a href="{{ route('singleartikel') }}"
-                                            class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
-                                            Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
-                                    </h6>
-                                    <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
-                                        Kebutuhan Pendidikan Modern</p>
-                                    <a href="{{ route('singleartikel') }}"
-                                        class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
-                                        Selengkapnya
-                                        <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card h-100 p-0 radius-12 overflow-hidden">
+                                <div class="card-body p-24">
+                                    <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
+                                        <img src="{{ asset('images/managers/Gedung.png') }}" alt=""
+                                            class="w-100 h-100 object-fit-cover">
                                     </a>
+                                    <div class="mt-20">
+                                        <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
+                                            <a href="#"
+                                                class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
+                                            <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
+                                                <i class="ri-calendar-2-line"></i>
+                                                20 Apr 2023
+                                            </div>
+                                        </div>
+                                        <h6 class="mb-16">
+                                            <a href="{{ route('singleartikel') }}"
+                                                class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
+                                                Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
+                                        </h6>
+                                        <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
+                                            Kebutuhan Pendidikan Modern</p>
+                                        <a href="{{ route('singleartikel') }}"
+                                            class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
+                                            Selengkapnya
+                                            <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-3 col-lg-4 col-sm-6">
-                        <div class="card h-100 p-0 radius-12 overflow-hidden">
-                            <div class="card-body p-24">
-                                <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                    <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
-                                        class="w-100 h-100 object-fit-cover">
-                                </a>
-                                <div class="mt-20">
-                                    <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                                        <a href="blog-details"
-                                            class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
-                                        <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
-                                            <i class="ri-calendar-2-line"></i>
-                                            20 Apr 2023
-                                        </div>
-                                    </div>
-                                    <h6 class="mb-16">
-                                        <a href="{{ route('singleartikel') }}"
-                                            class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
-                                            Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
-                                    </h6>
-                                    <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
-                                        Kebutuhan Pendidikan Modern</p>
-                                    <a href="{{ route('singleartikel') }}"
-                                        class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
-                                        Selengkapnya
-                                        <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card h-100 p-0 radius-12 overflow-hidden">
+                                <div class="card-body p-24">
+                                    <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
+                                        <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
+                                            class="w-100 h-100 object-fit-cover">
                                     </a>
+                                    <div class="mt-20">
+                                        <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
+                                            <a href="#"
+                                                class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
+                                            <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
+                                                <i class="ri-calendar-2-line"></i>
+                                                20 Apr 2023
+                                            </div>
+                                        </div>
+                                        <h6 class="mb-16">
+                                            <a href="{{ route('singleartikel') }}"
+                                                class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
+                                                Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
+                                        </h6>
+                                        <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
+                                            Kebutuhan Pendidikan Modern</p>
+                                        <a href="{{ route('singleartikel') }}"
+                                            class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
+                                            Selengkapnya
+                                            <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-3 col-lg-4 col-sm-6">
-                        <div class="card h-100 p-0 radius-12 overflow-hidden">
-                            <div class="card-body p-24">
-                                <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                    <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
-                                        class="w-100 h-100 object-fit-cover">
-                                </a>
-                                <div class="mt-20">
-                                    <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                                        <a href="blog-details"
-                                            class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
-                                        <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
-                                            <i class="ri-calendar-2-line"></i>
-                                            20 Apr 2023
-                                        </div>
-                                    </div>
-                                    <h6 class="mb-16">
-                                        <a href="{{ route('singleartikel') }}"
-                                            class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
-                                            Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
-                                    </h6>
-                                    <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
-                                        Kebutuhan Pendidikan Modern</p>
-                                    <a href="{{ route('singleartikel') }}"
-                                        class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
-                                        Selengkapnya
-                                        <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card h-100 p-0 radius-12 overflow-hidden">
+                                <div class="card-body p-24">
+                                    <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
+                                        <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
+                                            class="w-100 h-100 object-fit-cover">
                                     </a>
+                                    <div class="mt-20">
+                                        <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
+                                            <a href="#"
+                                                class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
+                                            <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
+                                                <i class="ri-calendar-2-line"></i>
+                                                20 Apr 2023
+                                            </div>
+                                        </div>
+                                        <h6 class="mb-16">
+                                            <a href="{{ route('singleartikel') }}"
+                                                class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
+                                                Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
+                                        </h6>
+                                        <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
+                                            Kebutuhan Pendidikan Modern</p>
+                                        <a href="{{ route('singleartikel') }}"
+                                            class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
+                                            Selengkapnya
+                                            <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-3 col-lg-4 col-sm-6">
-                        <div class="card h-100 p-0 radius-12 overflow-hidden">
-                            <div class="card-body p-24">
-                                <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                    <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
-                                        class="w-100 h-100 object-fit-cover">
-                                </a>
-                                <div class="mt-20">
-                                    <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                                        <a href="blog-details"
-                                            class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
-                                        <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
-                                            <i class="ri-calendar-2-line"></i>
-                                            20 Apr 2023
-                                        </div>
-                                    </div>
-                                    <h6 class="mb-16">
-                                        <a href="{{ route('singleartikel') }}"
-                                            class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
-                                            Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
-                                    </h6>
-                                    <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
-                                        Kebutuhan Pendidikan Modern</p>
-                                    <a href="{{ route('singleartikel') }}"
-                                        class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
-                                        Selengkapnya
-                                        <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card h-100 p-0 radius-12 overflow-hidden">
+                                <div class="card-body p-24">
+                                    <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
+                                        <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
+                                            class="w-100 h-100 object-fit-cover">
                                     </a>
+                                    <div class="mt-20">
+                                        <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
+                                            <a href="#"
+                                                class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
+                                            <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
+                                                <i class="ri-calendar-2-line"></i>
+                                                20 Apr 2023
+                                            </div>
+                                        </div>
+                                        <h6 class="mb-16">
+                                            <a href="{{ route('singleartikel') }}"
+                                                class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
+                                                Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
+                                        </h6>
+                                        <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
+                                            Kebutuhan Pendidikan Modern</p>
+                                        <a href="{{ route('singleartikel') }}"
+                                            class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
+                                            Selengkapnya
+                                            <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-3 col-lg-4 col-sm-6">
-                        <div class="card h-100 p-0 radius-12 overflow-hidden">
-                            <div class="card-body p-24">
-                                <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                    <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
-                                        class="w-100 h-100 object-fit-cover">
-                                </a>
-                                <div class="mt-20">
-                                    <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
-                                        <a href="blog-details"
-                                            class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
-                                        <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
-                                            <i class="ri-calendar-2-line"></i>
-                                            20 Apr 2023
-                                        </div>
-                                    </div>
-                                    <h6 class="mb-16">
-                                        <a href="{{ route('singleartikel') }}"
-                                            class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
-                                            Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
-                                    </h6>
-                                    <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
-                                        Kebutuhan Pendidikan Modern</p>
-                                    <a href="{{ route('singleartikel') }}"
-                                        class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
-                                        Selengkapnya
-                                        <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card h-100 p-0 radius-12 overflow-hidden">
+                                <div class="card-body p-24">
+                                    <a href="{{ route('singleartikel') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
+                                        <img src="{{ asset('images/managers/Radio2.png') }}" alt=""
+                                            class="w-100 h-100 object-fit-cover">
                                     </a>
+                                    <div class="mt-20">
+                                        <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
+                                            <a href="#"
+                                                class="px-20 py-6 bg-neutral-100 rounded-pill bg-hover-neutral-300 text-neutral-600 fw-medium">Renshuu</a>
+                                            <div class="d-flex align-items-center gap-8 text-neutral-500 fw-medium">
+                                                <i class="ri-calendar-2-line"></i>
+                                                20 Apr 2023
+                                            </div>
+                                        </div>
+                                        <h6 class="mb-16">
+                                            <a href="{{ route('singleartikel') }}"
+                                                class="text-line-2 text-hover-primary-600 text-xl transition-2">Masa Depan
+                                                Pendidikan: Menggabungkan Pembelajaran Online dan Tatap Muka</a>
+                                        </h6>
+                                        <p class="text-line-3 text-neutral-500">Bagaimana Model Pembelajaran Hybrid Memenuhi
+                                            Kebutuhan Pendidikan Modern</p>
+                                        <a href="{{ route('singleartikel') }}"
+                                            class="d-flex align-items-center gap-8 fw-semibold text-neutral-900 text-hover-primary-600 transition-2">
+                                            Selengkapnya
+                                            <i class="ri-arrow-right-double-line text-xl d-flex line-height-1"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="d-flex justify-content-end mt-3">
-                        <button class="btn btn-primary-900 rounded-3"
-                            style="width: 110px; height:50px; background-color:blue;">
-                            <a href="{{ route('adminkursus') }}"
-                                class="d-flex align-items-center gap-8 text-neutral-200 text-hover-primary-600 transition-2">
-                                <i class="ri-arrow-left-line text-md d-flex line-height-1"></i>
-                                <span class="text-center">Kembali</span>
-                            </a>
-                        </button>
+                        <div class="d-flex justify-content-end mt-3">
+                            <button class="btn btn-primary-900 rounded-3"
+                                style="width: 110px; height:50px; background-color:blue;">
+                                <a href="{{ route('adminkursus') }}"
+                                    class="d-flex align-items-center gap-8 text-neutral-200 text-hover-primary-600 transition-2">
+                                    <i class="ri-arrow-left-line text-md d-flex line-height-1"></i>
+                                    <span class="text-center">Kembali</span>
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

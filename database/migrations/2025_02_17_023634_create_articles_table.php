@@ -13,12 +13,16 @@ return new class extends Migration
 {
     Schema::create('articles', function (Blueprint $table) {
         $table->id();
-        $table->string('title');
+        $table->string('title'); // judul artikel
+        $table->string('subtitle'); // Sub Judul artikel
+        $table->string('category'); // kategori artikel
         $table->string('slug')->unique(); 
-        $table->text('content');
+        $table->text('content'); 
         $table->text('excerpt')->nullable();
         $table->text('media_path')->nullable();
-        $table->enum('status', ['draft', 'published'])->default('draft'); 
+        $table->string('thumbnail')->nullable(); // Gambar untuk card
+        $table->string('detail_image')->nullable(); // Gambar untuk single artikel
+        $table->enum('status', ['draft', 'published'])->default('draft');  
         $table->timestamps();
     });
 }
